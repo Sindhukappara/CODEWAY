@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Header Styles */
+    header {
+      background: linear-gradient(to right, #4CAF50, #2E8B57);
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 0 0 20px 20px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* Features Section */
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .feature {
+      flex: 1;
+      text-align: center;
+      padding: 20px;
+      margin: 10px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature i {
+      font-size: 2.5rem;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    .feature h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    /* Footer Styles */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 0;
+      border-radius: 20px 20px 0 0;
+    }
+
+    footer p {
+      font-size: 1rem;
+    }
+
+    /* Animation */
+    @keyframes slideIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animated {
+      animation: slideIn 1s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <header class="animated">
+    <div class="container">
+      <h1>Welcome to Our Creative Landing Page</h1>
+      <p>This feature will bring a world wide change it will be very much useful as we use it to enchances the world for a better change</p>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="features">
+      <div class="feature">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Feature 1</h3>
+        <p>This feature will bring a world wide change it will be very much useful as we use it to enchances the world for a better change</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Feature 2</h3>
+        <p>This feature will bring a world wide change it will be very much useful as we use it to enchances the world for a better change</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-rocket"></i>
+        <h3>Feature 3</h3>
+        <p>This feature will bring a world wide change it will be very much useful as we use it to enchances the world for a better change</p>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Creative Landing. All rights reserved.</p>
+    </div>
+  </footer>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</body>
+</html>
